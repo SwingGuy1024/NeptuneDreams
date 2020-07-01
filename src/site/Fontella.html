@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function getIcons() {
+      var output = "<tr>";
+      var index = 0xe800;
+      for (var i=0; i<34; ++i) {
+        for (var j=0; j<11; ++j) {
+          hexValue = index.toString(16);
+          output += "<td>" + index + " (" + hexValue + ')</td><td class="icon">&#x' + hexValue + ";</td>";
+          index++;
+        }
+        output += "</tr><tr>";
+      }
+      output += "</tr>"
+      return output;
+    }
+  </script>
+  <style>
+    @font-face {
+      font-family: Fontello;
+      src: url("css/fontello/fontello.ttf");
+    }
+    
+    table {
+      border-collapse: collapse;
+    }
+
+    table tr td {
+      font-family: Fontello;
+      border: 1px solid black;
+    }
+    tr {
+      border: lightgray;
+    }
+    td {
+      padding: 8px;
+    }
+    .icon{
+      font-size: 24pt;
+    }
+  </style>
+  <title>Fontella Characters</title>
+</head>
+<body>
+<table><script>document.write(getIcons())</script></table>
+</body>
+</html>
