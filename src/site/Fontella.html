@@ -7,8 +7,8 @@
       var index = 0xe800;
       for (var i=0; i<34; ++i) {
         for (var j=0; j<11; ++j) {
-          hexValue = index.toString(16);
-          output += "<td>" + index + " (" + hexValue + ')</td><td class="icon">&#x' + hexValue + ";</td>";
+          hexValue = index.toString(16).toUpperCase();
+          output += "<td>" + index + " &amp;#x" + hexValue + '</td><td class="icon">&#x' + hexValue + ";</td>";
           index++;
         }
         output += "</tr><tr>";

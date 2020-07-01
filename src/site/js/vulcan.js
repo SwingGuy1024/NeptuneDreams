@@ -2,7 +2,7 @@ function leadText() {
   return '  <h1>Vulcan&rsquo;s Level</h1>\n' +
       '  <p class="lead">\n' +
       '  Vulcan, Roman god of the forge, the only god who worked, was known for the beautiful things he crafted in his foundry. Vulcan used only\n' +
-      '  the best tools. This carpenters level is the level that Vulcan would have used. If he existed. And if he had a smart phone.</p>\n' +
+      '  the best tools. This carpenter&rsquo;s level is the level that Vulcan would have used. If he existed. And if he had a smart phone.</p>\n' +
       '<p>\n' +
       '  Okay, maybe a Roman god wouldn&rsquo;t have used a level app on a smart phone. Maybe he could just put his hands on a surface and feel even the\n' +
       '  smallest tilt. I mean, he was a god, right? So what makes this level app so useful that it bears the name of a Roman god?\n' +

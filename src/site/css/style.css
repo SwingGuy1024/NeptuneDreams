@@ -67,16 +67,20 @@
 
 .main a {
   background-color: #294575;
-  color: white;
+  color: #6291D8;
   padding: 16px 12px 12px 12px;
-  margin: 48px 0 0 0;
   text-decoration: none;
+  border-radius: 8px;
 }
 
+.main a:hover {
+  color: white;
+}
 
 .icon {
   font-family: Fontello;
   font-size: 24px;
+  color: white;
 }
 
 /* Main content */
@@ -146,5 +150,9 @@ body {
 
 h1 {
   font-size: 48px;
+}
+
+screenshots {
+  background-color: #839FB8;
 }
 
