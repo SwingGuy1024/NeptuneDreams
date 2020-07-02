@@ -41,7 +41,7 @@
   font-style: initial;
   overflow: hidden;
   background-color: #294575;
-  color: #6291D8;
+  color: #61B2F8;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -51,10 +51,10 @@
 .navbar a {
   float: left;
   display: block;
-  color: #6291D8;
+  color: #61B2F8;
   font-size: 18px;
   text-align: right;
-  padding: 14px 16px;
+  padding: 0 16px;
   text-decoration: none;
 }
 
@@ -67,10 +67,13 @@
 
 .main a {
   background-color: #294575;
-  color: #6291D8;
+  color: #61B2F8;
   padding: 16px 12px 12px 12px;
   text-decoration: none;
   border-radius: 8px;
+  font-family: JuliusSans;
+  font-size: 18px;
+  
 }
 
 .main a:hover {
@@ -79,7 +82,7 @@
 
 .icon {
   font-family: Fontello;
-  font-size: 24px;
+  font-size: 28px;
   color: white;
 }
 
@@ -90,7 +93,9 @@
   /*height: 15px; !* Used in this example to enable scrolling *!*/
   /*width: 100%;*/
   /*overflow-y: hidden !important;*/
-  background-image: url('../images/Aspendos-Interior.jpg');
+  background: black;
+  background-image: url('../images/Aspendos-Interior.jpg') ;
+  
   /* Full height */
   height: 100%;
 
@@ -104,17 +109,6 @@
   font-size: 20px
 }
 
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  /*background-color: black;*/
-  color: #6291D8;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 1000px;
-}
-
 body {
   font-family: Metamorphous, Palatino, serif;
   font-size: 14px;
@@ -126,7 +120,7 @@ body {
 /*}*/
 
 .example {
-  padding: 0 40px 0 0;
+  padding: 240px 40px 240px 0;
 }
 
 .table-text {
@@ -135,24 +129,60 @@ body {
   margin-right: auto;
 }
 
-.main td {
-  padding: 240px 40px 0 0;
+.table-text tr td {
+  padding-right: 40px;
 }
-
-.black {
-  background-color: black;
-}
-
-.fontello {
-  font-family: Fontello;
-  font-size: 36px;
-}
+/*.main td {*/
+/*  padding-right: 50px;*/
+/*}*/
 
 h1 {
   font-size: 48px;
 }
 
-screenshots {
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Sans-Serif;
+}
+
+.screenshots {
   background-color: #839FB8;
+}
+
+.screenshots td {
+  padding: 20px 0;
+}
+
+.about {
+  padding: 300px 0;
+  background-image: url('../images/Scan.jpeg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.smallHeadLine {
+  font-family: sans-serif;
+  font-size: 64pt;
+  font-weight: bold;
+}
+
+.screenshots p {
+  font-family: Serif;
+  font-size: 18px;
+}
+
+.about a:hover {
+  color: white;
+}
+
+.current {
+  color: white;
+  font-size: 18px;
+  padding: 0 16px;
 }
 
