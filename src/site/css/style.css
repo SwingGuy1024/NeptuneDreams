@@ -65,6 +65,13 @@
   color: white;
 }
 
+/* Current selection in the nav bar*/
+.current {
+  color: white;
+  font-size: 18px;
+  padding: 0 16px;
+}
+
 .main a {
   background-color: #294575;
   color: #61B2F8;
@@ -73,16 +80,9 @@
   border-radius: 8px;
   font-family: JuliusSans;
   font-size: 18px;
-  
 }
 
 .main a:hover {
-  color: white;
-}
-
-.icon {
-  font-family: Fontello;
-  font-size: 28px;
   color: white;
 }
 
@@ -93,9 +93,13 @@
   /*height: 15px; !* Used in this example to enable scrolling *!*/
   /*width: 100%;*/
   /*overflow-y: hidden !important;*/
-  background: black;
-  background-image: url('../images/Aspendos-Interior.jpg') ;
-  
+  background: #839FB8;
+}
+
+
+.aspendos {
+  background-image: url('../images/Aspendos-Interior.jpg');
+
   /* Full height */
   height: 100%;
 
@@ -103,6 +107,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.icon {
+  font-family: Fontello;
+  font-size: 28px;
+  color: white;
 }
 
 .lead {
@@ -123,7 +133,7 @@ body {
   padding: 240px 40px 240px 0;
 }
 
-.table-text {
+.table-text, .faq {
   width: 1100px;
   margin-left: auto;
   margin-right: auto;
@@ -132,9 +142,6 @@ body {
 .table-text tr td {
   padding-right: 40px;
 }
-/*.main td {*/
-/*  padding-right: 50px;*/
-/*}*/
 
 h1 {
   font-size: 48px;
@@ -153,9 +160,9 @@ h3 {
   background-color: #839FB8;
 }
 
-.screenshots td {
-  padding: 20px 0;
-}
+/*.screenshots td {*/
+/*  padding: 20px 0;*/
+/*}*/
 
 .about {
   padding: 300px 0;
@@ -180,9 +187,22 @@ h3 {
   color: white;
 }
 
-.current {
-  color: white;
-  font-size: 18px;
-  padding: 0 16px;
+.answer {
+  font-family: Serif;
+}
+
+.question {
+  font-family: Sans-Serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #294575;
+}
+
+.question {
+  width: 25%;
+}
+
+.faq tr td {
+  vertical-align: top;
 }
 
