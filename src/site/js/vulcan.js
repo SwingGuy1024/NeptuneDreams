@@ -52,7 +52,7 @@ function FAQs() {
     },
     {
       question: "How can I tell if my level needs calibration?",
-      answer: "Place your level on any firm surface and look at the reading. Then turn it around 180¡ and put it back in the same spot. If your level is well calibrated, it should give you the same reading as before. This works with anybody's level."
+      answer: "Place your level on any firm surface and look at the reading. Then turn it around 180&deg; and put it back in the same spot. If your level is well calibrated, it should give you the same reading as before. This works with anybody's level.<p>"
     },
     {
       question: "How accurate is the Level of Vulcan?",
@@ -80,7 +80,7 @@ function FAQs() {
     let faq = faqs[i];
     console.log(faq);
     // output += "<h3>" + (faq.question) + '</h3>\n<p class="answer">' + (faq.answer) + '</p>\n';
-    output += '<tr><td class="faq question">' + filter(faq.question) + '<td class="faq"><p>' + filter(faq.answer) + '</p></td></tr>\n';
+    output += '<tr><td class="faq question">' + filter(faq.question) + '</td><td class="faq"><p>' + filter(faq.answer) + '</p></td></tr>\n';
   }
   console.log(output);
   return output;
